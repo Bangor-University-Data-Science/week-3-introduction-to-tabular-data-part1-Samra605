@@ -10,4 +10,5 @@ def load_titanic_data(filepath: str) -> pd.DataFrame:
     Returns:
         pd.DataFrame: Loaded Titanic dataset as a DataFrame.
     """
-    pass  # Implement the loading logic here
+    df = pd.read_csv('D:\\ICE-4006\\week3\\week-3-introduction-to-tabular-data-part1-Samra605\\data\\titanic.csv')
+    return df

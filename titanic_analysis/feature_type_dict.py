@@ -14,8 +14,8 @@ def create_feature_type_dict(df):
             'discrete': []  # Fill with discrete numerical features
         },
         'categorical': {
-            'nominal': [],  # Fill with nominal categorical features
-            'ordinal': []  # Fill with ordinal categorical features
+            'nominal': [],  
+            'ordinal': []  
         }
     }
     return feature_types
